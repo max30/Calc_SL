@@ -575,17 +575,18 @@
         });
         
         // Обновляем заголовок при изменении плеча
-        document.getElementById('leverage').addEventListener('input', function() {
-            const leverage = parseFloat(this.value) || 10;
-            const leverageLabel = document.getElementById('leverageLabel');
-            if (leverage === 1) {
-                leverageLabel.textContent = 'Размер позиции без плеча:';
-            } else {
-                leverageLabel.textContent = `Размер позиции с ${leverage}x плечом:`;
-            }
-        });
+        // document.getElementById('leverage').addEventListener('input', function() {
+        //     const leverage = parseFloat(this.value) || 10;
+        //     const leverageLabel = document.getElementById('leverageLabel');
+        //     if (leverage === 1) {
+        //         leverageLabel.textContent = 'Размер позиции без плеча:';
+        //     } else {
+        //         leverageLabel.textContent = `Размер позиции с ${leverage}x плечом:`;
+        //     }
+        // });
     </script>
 </body>
 </html>
+
 
 
