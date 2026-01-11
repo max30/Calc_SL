@@ -536,12 +536,12 @@
         }
         
         function resetForm() {
-            document.getElementById('entryPrice').value = '100';
-            document.getElementById('stopPrice').value = '95';
-            document.getElementById('riskDollars').value = '100';
-            document.getElementById('capital').value = '10000';
-            document.getElementById('riskPercent').value = '1';
-            document.getElementById('leverage').value = '10';
+            document.getElementById('entryPrice').value = '';
+            document.getElementById('stopPrice').value = '';
+            document.getElementById('riskDollars').value = '';
+            document.getElementById('capital').value = '';
+            document.getElementById('riskPercent').value = '';
+            document.getElementById('leverage').value = '1';
             document.getElementById('resultOutput').classList.remove('active');
             document.getElementById('leverageLabel').textContent = 'Размер позиции с 10x плечом:';
         }
@@ -587,4 +587,5 @@
     </script>
 </body>
 </html>
+
 
